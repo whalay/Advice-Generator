@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+@layer base {
+  body {
+      @apply font-[Manrope];
+      background-color: hsl(218, 23%, 16%);
+  }
+
+}
+
+.bg-color{
+  background-color: hsl(218, 23%, 16%);
+}
+.card-color{
+  background-color: hsl(217, 19%, 24%);
+}
+.h2-color{
+  color:hsl(150, 100%, 66%);
+ 
+}
