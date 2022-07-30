@@ -20,7 +20,7 @@ const QuoteCard = props => {
                         <img src={pattern} alt="" />
                     </div>
                     <div className='md:pt-7 md:pb-[60px] hidden md:block '>
-                        <img src={patterndesk} alt="" />
+                        <img src={patterndesk} alt="image" />
                     </div>
                     <div className='absolute  p-4 bottom-[-32px] border rounded-full  border-Neon-Green shadow-Neon-Green hover:shadow-2xl  bg-Neon-Green hover:shadow-Neon-Green'>
                        <button onClick={props.fetchQuote}><img src={dice} alt="" /></button> 
