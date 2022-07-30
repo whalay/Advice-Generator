@@ -14,7 +14,7 @@ const QuoteCard = props => {
                 <div className=' relative card-color flex flex-col justify-center items-center  rounded-2xl p-6 '>
                     <h5 className='text-Neon-Green  text-xs tracking-[5px] py-4'>ADVICE #{props.quote.id}</h5>
                    
-                    <p className='text-[28px] pl-9 pr-3 text-center  text-Light-Cyan '>"{props.quote.advice}"</p>
+                    <p className='text-[2em] p-4 text-center  text-Light-Cyan '>"{props.quote.advice}"</p>
                     
                     <div className='pt-7 pb-[60px] md:hidden'>
                         <img src={pattern} alt="" />
